@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/framework7.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/materialdesignicons.css">
+        <title>Framework7 v.3</title>
+    </head>
+    <body>
+       <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+         <div id="NavBarTopoHome" class="navbar no-shadow tema-primario">
+                    <div class="navbar-inner">
+						<div class="left">
+                            <a class="link icon-only panel-open" id="MenuPrincipal" data-panel="left">
+                                <i class="mdi mdi-menu"></i>
+                            </a>
+                        </div>
+                        <div class="title" id="titleApp" ><i id="icone" class="mdi mdi-lead-pencil"></i> Meu App</div>
+           			</div>
+                </div>
+
+                 
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+		  
+		  <!-- CONTEUDO DA PAGINA AQUI -->
+			<div class="block">
+			<p>Conteúdo do Aplicativo Aqui</p>
+			</div>
+				  
+		 
+          </div>
+		  
+		  <!-- FAB BUTTON -->
+		   <div class="fab fab-extended fab-right-bottom color-orange">
+				<a class="link popup-open" href="#" data-popup=".popup-about">
+					 <div class="fab-text"><i class="mdi mdi-plus"></i></div>
+				</a>
+		   </div>
+		  
+        </div>
+      </div>
+    </div>
+		
+	<script type="text/javascript" src="js/framework7.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+    
+		
+    <script type="text/javascript" src="cordova.js"></script>
+        
+    </body>
+</html>

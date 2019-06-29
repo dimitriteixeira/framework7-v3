@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/framework7.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.css">
+    <title>Framework7 v.3</title>
+</head>
+
+<body>
+
+
+    <!-- App root element -->
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+           
+		   <!-- MENU ESQUERDO -->
+		   <div class="panel panel-left panel-cover">
+
+                <div class="block topo-painel" id="blocoMenu">
+
+                    <div class="block-header" style="color:white;">
+                        <div class="row">
+                            <div class="col-25" style="font-size:28px;"><i class="mdi mdi-account-circle"></i></div>
+                            <div class="col-75"><strong id="menuNome">Usuário Padrão</strong><br /><small id="MenuContaPessoal">Conta Pessoal</small></div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--<div class="block-title">Se quiser colocar uma divisória copie esse trecho e descomente</div>-->
+                <div class="list links-list no-hairlines no-hairlines-between no-chevron">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="item-content ">
+                                    <div class="item-media" style="font-size:28px;"><i class="mdi mdi-link-variant"></i></div>
+                                    <div class="item-inner">Link 1</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="item-content ">
+                                    <div class="item-media" style="font-size:28px;"><i class="mdi mdi-link-variant"></i></div>
+                                    <div class="item-inner">Link 2</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="#">
+                                <div class="item-content ">
+                                    <div class="item-media" style="font-size:28px;"><i class="mdi mdi-link-variant"></i></div>
+                                    <div class="item-inner">Link 3</div>
+                                </div>
+                            </a>
+                        </li>
+                            <a href="#">
+                                <div class="item-content ">
+                                    <div class="item-media" style="font-size:28px;"><i class="mdi mdi-link-variant"></i></div>
+                                    <div class="item-inner">Link 4</div>
+                                </div>
+                            </a>
+                        </li>
+						
+                        <li><br>
+                           <center><img id="logoMenu" src="img/logo.png" width="150"></center>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+			
+			 <!-- Initial Page, "data-name" contains page name -->			
+            <div data-name="index" class="page">
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+					
+					<!-- BLOCO PARA ANIMAÇÃO TELA INICIAL -->
+                    <div class="Aligner animated lightSpeedIn">
+                        <div class="Aligner-item Aligner-item--top"></div>
+                        <div class="Aligner-item"><center><img id="logoInicio" style="max-width: 100%; max-height: 400px;" src="img/logo.png" /></center></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/my-app.js"></script>
+	
+	
+
+    <script type="text/javascript" src="cordova.js"></script>
+  
+
+</body>
+</html>
